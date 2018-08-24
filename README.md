@@ -1,16 +1,24 @@
 =========
 SocoSolutions Project
-### Build and Deploy the Project
+=========
+
+========= 
+Build and Deploy the Project
+=========
 ```
 mvn clean install
 ```
 
-## Deploy it by using Application.java
+=========
+Deploy it by using Application.java
+=========
 
-### Set up MySQL
+=========
+MySQL init script
+=========
 ```
 mysql -u root -p 
-> CREATE USER 'tutorialuser'@'localhost' IDENTIFIED BY 'Admin';
+> CREATE USER 'user'@'localhost' IDENTIFIED BY 'Admin';
 > GRANT ALL PRIVILEGES ON *.* TO 'admin'@'localhost';
 > FLUSH PRIVILEGES;
 ```
