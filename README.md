@@ -20,4 +20,5 @@ mysql -u root -p
 
 ========= 
 Smtp =========
+
 application.properties houses smtp credentials, need to mve out of hardcoding in propertied file
