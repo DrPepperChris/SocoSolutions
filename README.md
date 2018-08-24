@@ -7,7 +7,7 @@ mvn clean install
 ```
 
 =========
-Deploy it by using Application.java =========
+Deploy with Application.java =========
 
 =========
 MySQL init script =========
