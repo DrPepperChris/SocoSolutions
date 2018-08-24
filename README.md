@@ -1,21 +1,17 @@
 =========
-SocoSolutions Project
-=========
+SocoSolutions Project =========
 
 ========= 
-Build and Deploy the Project
-=========
+Build and Deploy the Project =========
 ```
 mvn clean install
 ```
 
 =========
-Deploy it by using Application.java
-=========
+Deploy it by using Application.java =========
 
 =========
-MySQL init script
-=========
+MySQL init script =========
 ```
 mysql -u root -p 
 > CREATE USER 'user'@'localhost' IDENTIFIED BY 'Admin';
@@ -23,5 +19,6 @@ mysql -u root -p
 > FLUSH PRIVILEGES;
 ```
 
-### Smtp
+========= 
+Smtp =========
 application.properties houses smtp credentials, need to mve out of hardcoding in propertied file
