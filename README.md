@@ -1,5 +1,4 @@
-=========
-SocoSolutions Project =========
+## SocoSolutions Project ##
 
 ========= 
 Build and Deploy the Project =========
